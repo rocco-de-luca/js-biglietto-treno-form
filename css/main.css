@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    max-width: 1600px;
+    height: 100vh;
+    background-color: tomato;
+    font-family: Roboto,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: inherit;
+    color: #000;
+    
+}
+
+.show {
+    opacity: 1;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.title {
+    color: gold;
+}
+
+#nome-passeggero {
+    color: gold;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col {
+    padding: 10px;
+}
+
+h1{
+    color: gold;
+    text-align: center;
+}
+
+.nome {
+    margin: auto;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+table {
+    margin-left:auto; 
+   margin-right:auto; 
+}
+
+#biglietto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
